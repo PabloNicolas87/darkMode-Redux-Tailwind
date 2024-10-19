@@ -1,9 +1,9 @@
 import React from "react";
-import ContainerButtons from "./components/ContainerButtons/ContainerButtons";
+import Navbar from "./components/Navbar/Navbar";
 const App = () => {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center transition duration-200 dark:bg-gray-900">
-      <ContainerButtons />
+    <div className="min-h-screen flex flex-col  items-center transition duration-200 dark:bg-gray-900">
+      <Navbar />
     </div>
   );
 };
